@@ -1,3 +1,6 @@
-alert ("Git is Awesome!");
-let answer = prompt("c");
-console.log(answer);
+
+let name = prompt("What is your name?");
+
+function greet (name){
+    alert(`Hello ${name}!!, Git is Awesome!`)
+}
